@@ -1,0 +1,43 @@
+{
+  "name": "react-styled-floating-label",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --config webpack.dist.js",
+    "example": "webpack --watch --hot=false --config example/webpack.example.js & webpack-dev-server --lazy --config example/webpack.example.js"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@hot-loader/react-dom": "^16.8.6",
+    "@types/react": "^16.8.14",
+    "@types/styled-components": "^4.1.14",
+    "@typescript-eslint/eslint-plugin": "^1.7.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-filenames": "^1.3.2",
+    "eslint-plugin-react": "^7.12.4",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.8.4",
+    "styled-components": "^4.2.0",
+    "typescript": "^3.4.5",
+    "typescript-eslint-parser": "^22.0.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  }
+}

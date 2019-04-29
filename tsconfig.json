@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "target": "esnext",
+    "module": "esnext",
+    "lib": [
+      "dom",
+      "es2018"
+    ],
+    "jsx": "preserve",
+    "pretty": true,
+    "isolatedModules": true,
+
+    "strict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  }
+}
