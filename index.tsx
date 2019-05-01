@@ -3,9 +3,11 @@ import styled from 'styled-components';
 
 type FloatingLabelProps = {
     text: string;
+    children: ReactElement<HTMLInputElement>;
+    style?: object;
+    placeholderStyle?: object;
     container?: ComponentType|string;
     label?: ComponentType|string;
-    children: ReactElement<HTMLInputElement>;
     className?: string; // for compatibility with styled-components
 };
 
@@ -26,6 +28,8 @@ class FloatingLabel extends React.Component<FloatingLabelProps, FloatingLabelSta
     public static defaultProps = {
         container: 'div',
         label: 'label',
+        style: {},
+        placeholderStyle: {},
     };
 
     public state: FloatingLabelState = {
@@ -112,6 +116,13 @@ class FloatingLabel extends React.Component<FloatingLabelProps, FloatingLabelSta
             }
         }
 
+        if (this.props.style) {
+            return {
+                ...labelStyle,
+                ...this.props.style,
+            };
+        }
+
         return labelStyle;
     }
 
@@ -121,6 +132,9 @@ class FloatingLabel extends React.Component<FloatingLabelProps, FloatingLabelSta
     ): object {
         const { fontSize } = inputStyle;
 
+        // We cannot automatically get placeholder styles because of the bug in Chrome
+        // https://bugs.chromium.org/p/chromium/issues/detail?id=850744
+        // https://bugs.chromium.org/p/chromium/issues/detail?id=884537
         const placeholderStyle = {
             transform: 'none',
             fontSize: pxValue(fontSize),
@@ -145,6 +159,13 @@ class FloatingLabel extends React.Component<FloatingLabelProps, FloatingLabelSta
                     placeholderStyle[property] = value;
                 }
             }
+        }
+
+        if (this.props.placeholderStyle) {
+            return {
+                ...placeholderStyle,
+                ...this.props.placeholderStyle,
+            };
         }
 
         return placeholderStyle;
@@ -199,9 +220,6 @@ class FloatingLabel extends React.Component<FloatingLabelProps, FloatingLabelSta
         // have linking to the container
         const Label = styled(label)(this.getLabelStyleProperties(inputStyle, classNameStyle));
 
-        // We cannot automatically get placeholder styles because of the bug in Chrome
-        // https://bugs.chromium.org/p/chromium/issues/detail?id=850744
-        // https://bugs.chromium.org/p/chromium/issues/detail?id=884537
         const Container = styled(container)({
             position: 'relative',
             [`& .${this.inputClass}:not(:focus).${this.inputClass}:placeholder-shown + ${Label}`]:
