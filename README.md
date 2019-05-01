@@ -8,7 +8,7 @@ import FloatingLabel from 'react-styled-floating-label';
 const email = (
     <FloatingLabel text="Email">
         <input type="email" />
-    </BlueFloatingLabel>
+    </FloatingLabel>
 );
 ```
 

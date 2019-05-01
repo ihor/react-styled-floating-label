@@ -24,7 +24,8 @@
   },
   "scripts": {
     "build": "webpack --config webpack.dist.js",
-    "demo": "webpack --watch --hot=false --config demo/webpack.demo.js & webpack-dev-server --lazy --config demo/webpack.demo.js"
+    "demo": "webpack --watch --hot=false --config demo/webpack.demo.js & webpack-dev-server --lazy --config demo/webpack.demo.js",
+    "build-live-demo": "webpack --config demo/webpack.demo.js --mode=production"
   },
   "peerDependencies": {
     "react": "^16.8.0",

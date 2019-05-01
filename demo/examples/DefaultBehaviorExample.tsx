@@ -19,6 +19,12 @@ const BigInput = styled.input\`
     font-size: 2em;
 \`;
 
+const firstName = (
+    <FloatingLabel text="First Name">
+        <input />
+    </FloatingLabel>
+);
+
 const lastName = (
     <FloatingLabel text="Last Name">
         <BigInput />

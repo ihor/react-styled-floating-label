@@ -38,6 +38,12 @@ const firstName = (
         <Input />
     </VerticallyPositionedFloatingLabel>
 );
+
+const lastName = (
+    <HorizontallyPositionedFloatingLabel text="Last Name">
+        <Input />
+    </HorizontallyPositionedFloatingLabel>
+);
 `;
 
 const CustomPositioningExample: FunctionComponent = () =>
