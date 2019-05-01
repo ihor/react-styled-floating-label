@@ -2,7 +2,15 @@ React-Styled-Floating-Label
 ===========================
 Floating label component which works with any HTML input. Supports styling with [styled-components](https://styled-components.com). Check this [live demo](http://ihor.burlachenko.com/open-source/react-styled-floating-label-demo/) to see it in action.
 
-![Typical Usage Screen Recording](https://github.com/ihor/react-styled-floating-label/blob/master/demo/screen-recordings/typical-usage.gif?raw=true)
+```jsx
+import FloatingLabel from 'react-styled-floating-label';
+
+const email = (
+    <FloatingLabel text="Email">
+        <input type="email" />
+    </BlueFloatingLabel>
+);
+```
 
 Installation
 ============
@@ -167,6 +175,16 @@ const BlueFloatingLabelWithBoldPlaceholder = styled(BlueFloatingLabel)`
     --placeholder-font-weight: bold;
 `;
 ```
+
+Demo
+====
+
+To run the demo, you need to clone the project and execute:
+```bash
+npm i && npm run demo
+```
+
+Or you can check a live demo [here](http://ihor.burlachenko.com/open-source/react-styled-floating-label-demo/).
 
 Feedback
 ========
