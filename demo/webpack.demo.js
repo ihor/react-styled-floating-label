@@ -1,6 +1,6 @@
 /* eslint-disable */
 const path = require('path');
-const webpackExample = require('webpack');
+const webpackDemo = require('webpack');
 const CleanWebpackPlugin = require('clean-webpack-plugin/dist/clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -34,7 +34,8 @@ module.exports = {
         extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
         symlinks: true,
         alias: {
-            'react-dom': '@hot-loader/react-dom'
+            'react-dom': '@hot-loader/react-dom',
+            'react-styled-floating-label': paths.lib,
         }
     },
     module: {
@@ -67,6 +68,6 @@ module.exports = {
             template: paths.template,
         }),
         new CleanWebpackPlugin(),
-        new webpackExample.HotModuleReplacementPlugin(),
+        new webpackDemo.HotModuleReplacementPlugin(),
     ],
 };

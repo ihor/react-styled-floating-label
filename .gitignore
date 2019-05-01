@@ -2,5 +2,7 @@
 node_modules/
 npm-debug.log
 **/dist/*.js
-**/example/build/js/*
-**/example/build/index.html
+**/demo/build/js/*
+**/demo/build/*.html
+**/demo/build/*.map
+**/demo/build/*.json

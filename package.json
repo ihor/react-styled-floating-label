@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack --config webpack.dist.js",
-    "example": "webpack --watch --hot=false --config example/webpack.example.js & webpack-dev-server --lazy --config example/webpack.example.js"
+    "demo": "webpack --watch --hot=false --config demo/webpack.demo.js & webpack-dev-server --lazy --config demo/webpack.demo.js"
   },
   "peerDependencies": {
     "react": "^16.8.0",
@@ -33,6 +33,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-hot-loader": "^4.8.4",
+    "react-syntax-highlighter": "^10.2.1",
     "styled-components": "^4.2.0",
     "typescript": "^3.4.5",
     "typescript-eslint-parser": "^22.0.0",
