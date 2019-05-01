@@ -146,9 +146,9 @@ API
 
 ### Props
 
-| Prop             | Required | Default Value  | Description
-| :---             | :---     |           ---: | :---
-| text             | Required |                | Label text
+| Prop             | Required | Default        | Description
+| :---             |     ---: |           ---: | :---
+| text             |      Yes |                | Label text
 | style            | Optional |           `{}` | Label style for projects which are not using `styled-components`
 | placeholderStyle | Optional |           `{}` | Placeholder style for projects which are not using `styled-components`
 | container        | Optional |          `div` | Component container
