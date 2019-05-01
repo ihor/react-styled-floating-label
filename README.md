@@ -146,14 +146,13 @@ API
 
 ### Props
 
-Prop             | Required | Default Value  | Description
------------------|----------|----------------|--------------------------
- :---            | :---     |           ---: | :---
-text             | Required |                | Label text
-style            | Optional |           `{}` | Label style for projects which are not using `styled-components`
-placeholderStyle | Optional |           `{}` | Placeholder style for projects which are not using `styled-components`
-container        | Optional |          `div` | Component container
-label            | Optional |        `label` | Label component
+| Prop             | Required | Default Value  | Description
+| :---             | :---     |           ---: | :---
+| text             | Required |                | Label text
+| style            | Optional |           `{}` | Label style for projects which are not using `styled-components`
+| placeholderStyle | Optional |           `{}` | Placeholder style for projects which are not using `styled-components`
+| container        | Optional |          `div` | Component container
+| label            | Optional |        `label` | Label component
 
 ### styled-components
 
