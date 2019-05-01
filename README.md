@@ -2,7 +2,7 @@ React-Styled-Floating-Label
 ===========================
 Floating label component which works with any HTML input. Supports styling with [styled-components](https://styled-components.com). Check this [live demo](http://ihor.burlachenko.com/open-source/react-styled-floating-label-demo/) to see it in action.
 
-![Typical Usage Screen Recording](https://github.com/ihor/react-styled-floating-label/blob/master/screen-recordings/typical-usage.gif?raw=true)
+![Typical Usage Screen Recording](https://github.com/ihor/react-styled-floating-label/blob/master/demo/screen-recordings/typical-usage.gif?raw=true)
 
 Installation
 ============
@@ -49,7 +49,7 @@ const email = (
 );
 ```
 
-![Typical Usage Screen Recording](https://github.com/ihor/react-styled-floating-label/blob/master/screen-recordings/typical-usage.gif?raw=true)
+![Typical Usage Screen Recording](https://github.com/ihor/react-styled-floating-label/blob/master/demo/screen-recordings/typical-usage.gif?raw=true)
 
 ### Styling With Props
 
@@ -70,7 +70,7 @@ const address = (
 );
 ```
 
-![Styling With Props Screen Recording](https://github.com/ihor/react-styled-floating-label/blob/master/screen-recordings/styling-with-props.gif?raw=true)
+![Styling With Props Screen Recording](https://github.com/ihor/react-styled-floating-label/blob/master/demo/screen-recordings/styling-with-props.gif?raw=true)
 
 ### Styled Placeholder
 
@@ -97,7 +97,7 @@ const address = (
 );
 ```
 
-![Styled Placeholder Screen Recording](https://github.com/ihor/react-styled-floating-label/blob/master/screen-recordings/styled-placeholder.gif?raw=true)
+![Styled Placeholder Screen Recording](https://github.com/ihor/react-styled-floating-label/blob/master/demo/screen-recordings/styled-placeholder.gif?raw=true)
 
 ### Custom Positioning
 
@@ -129,7 +129,7 @@ const lastName = (
 );
 ```
 
-![Custom Positioning Screen Recording](https://github.com/ihor/react-styled-floating-label/blob/master/screen-recordings/custom-positioning.gif?raw=true)
+![Custom Positioning Screen Recording](https://github.com/ihor/react-styled-floating-label/blob/master/demo/screen-recordings/custom-positioning.gif?raw=true)
 
 You can check all examples in action in this [live demo](http://ihor.burlachenko.com/open-source/react-styled-floating-label-demo/).
 
