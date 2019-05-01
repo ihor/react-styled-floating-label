@@ -2,6 +2,26 @@
   "name": "react-styled-floating-label",
   "version": "0.1.0",
   "main": "dist/index.js",
+  "license": "MIT",
+  "description": "Floating label component which works with any HTML input",
+  "keywords": [
+    "react",
+    "floating-label",
+    "styled-components"
+  ],
+  "homepage": "https://github.com/ihor/react-styled-floating-label",
+  "bugs": {
+    "url": "https://github.com/ihor/react-styled-floating-label"
+  },
+  "author": {
+    "name": "Ihor Burlachenko",
+    "email": "ihor.burlachenko@gmail.com",
+    "url": "http://ihor.burlachenko.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihor/react-styled-floating-label.git"
+  },
   "scripts": {
     "build": "webpack --config webpack.dist.js",
     "demo": "webpack --watch --hot=false --config demo/webpack.demo.js & webpack-dev-server --lazy --config demo/webpack.demo.js"
