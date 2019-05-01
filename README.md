@@ -167,7 +167,7 @@ const BlueFloatingLabel = styled(FloatingLabel)`
 `;
 ```
 
-To style the placeholder use standard CSS properties with the "--placeholder-" prefix:
+To style placeholder use standard CSS properties with the "--placeholder-" prefix:
 
 ```jsx
 const BlueFloatingLabelWithBoldPlaceholder = styled(BlueFloatingLabel)`
