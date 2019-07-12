@@ -86,9 +86,6 @@ const address = (
 import styled from 'styled-components';
 import FloatingLabel from 'react-styled-floating-label';
 
-import Example from '../components/Example';
-import FieldGroup from '../components/FieldGroup';
-
 const FloatingLabelWithStyledPlaceholder = styled(FloatingLabel)`
     --placeholder-color: #328a09;
     --placeholder-font-weight: bold;
@@ -112,9 +109,6 @@ const address = (
 ```jsx
 import styled from 'styled-components';
 import FloatingLabel from 'react-styled-floating-label';
-
-import Example from '../components/Example';
-import FieldGroup from '../components/FieldGroup';
 
 const VerticallyPositionedFloatingLabel = styled(FloatingLabel)`
     transform: translateY(-10px);
