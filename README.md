@@ -1,6 +1,6 @@
 React-Styled-Floating-Label
 ===========================
-Floating label component which works with any HTML input. Supports styling with [styled-components](https://styled-components.com). Check this [live demo](https://ihor.burlachenko.com/react-styled-floating-label-demo/) to see it in action.
+Floating label component which works with any HTML input. Supports styling with [styled-components](https://styled-components.com). Check this [live demo](http://ihor.burlachenko.com/react-styled-floating-label-demo/) to see it in action.
 
 ```jsx
 import FloatingLabel from 'react-styled-floating-label';
