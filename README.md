@@ -1,6 +1,6 @@
 React-Styled-Floating-Label
 ===========================
-Floating label component which works with any HTML input. Supports styling with [styled-components](https://styled-components.com). Check this [live demo](http://ihor.burlachenko.com/open-source/react-styled-floating-label-demo/) to see it in action.
+Floating label component which works with any HTML input. Supports styling with [styled-components](https://styled-components.com). Check this [live demo](https://ihor.burlachenko.com/react-styled-floating-label-demo/) to see it in action.
 
 ```jsx
 import FloatingLabel from 'react-styled-floating-label';
@@ -133,7 +133,7 @@ const lastName = (
 
 ![Custom Positioning Screen Recording](https://github.com/ihor/react-styled-floating-label/blob/master/demo/screen-recordings/custom-positioning.gif?raw=true)
 
-You can check all examples in action in this [live demo](http://ihor.burlachenko.com/open-source/react-styled-floating-label-demo/).
+You can check all examples in action in this [live demo](http://ihor.burlachenko.com/react-styled-floating-label-demo/).
 
 API
 ===
@@ -177,7 +177,7 @@ To run the demo, you need to clone the project and execute:
 npm i && npm run demo
 ```
 
-Or you can check a live demo [here](http://ihor.burlachenko.com/open-source/react-styled-floating-label-demo/).
+Or you can check a live demo [here](http://ihor.burlachenko.com/react-styled-floating-label-demo/).
 
 Feedback
 ========
